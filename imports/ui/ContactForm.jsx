@@ -8,7 +8,6 @@ export const ContactForm = () => {
 
     const saveContact = () => {
         ContactsCollection.insert({name, email, imageUrl})
-
         // clear the input data
         setName("")
         setEmail("")
